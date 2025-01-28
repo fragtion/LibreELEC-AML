@@ -3,12 +3,12 @@
 # Copyright (C) 2018-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="RTL8188EU"
-PKG_VERSION="9a56f32c2a46be5b81f0eedf49ad44ea8f10bfae"
-PKG_SHA256="c8f225ff85cdc49e4a043773234e42de38aac0d2c9322829dac21c2ba72fed87"
+PKG_VERSION="00b0e77e705decd2d0b633dfff7a23ce1fb9399c"
+PKG_SHA256="2de882d5bda036d0b0aaf68bbefe9b42c776921bbfe2af0c8fab94e9abe9f195"
 PKG_LICENSE="GPL"
 # realtek: PKG_SITE="http://www.realtek.com.tw/downloads/downloadsView.aspx?Langid=1&PFid=48&Level=5&Conn=4&ProdID=274&DownTypeID=3&GetDown=false&Downloads=true"
-PKG_SITE="https://github.com/lwfinger/rtl8188eu"
-PKG_URL="https://github.com/lwfinger/rtl8188eu/archive/$PKG_VERSION.tar.gz"
+PKG_SITE="https://github.com/fragtion/rtl8188eus"
+PKG_URL="https://github.com/fragtion/rtl8188eus/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain linux"
 PKG_NEED_UNPACK="$LINUX_DEPENDS"
 PKG_LONGDESC="Realtek RTL81xxEU Linux 3.x driver"
